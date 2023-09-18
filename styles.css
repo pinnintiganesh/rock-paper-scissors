@@ -1,0 +1,68 @@
+body{
+    background-color: crimson;
+}
+#heading 
+{
+    color: white;
+    font-family: 'roboto';
+    text-align: center;
+}
+#holder
+{
+    padding:3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+img 
+{
+    width: 20%;
+    transition: width 1s;
+    margin-right: 3%;
+}
+img:hover
+{
+   
+    cursor: pointer;
+    transition: width 1s;   
+}
+
+#result p
+{
+    
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+    color: white;
+    font-family: 'roboto';
+
+
+
+}
+
+#reset
+{
+    background-color: rgb(213, 232, 248);
+    border: none;
+    margin-left: 45%;
+    padding:1%;
+    width: 10%;
+    cursor: pointer;
+    border-radius: 2%;
+    
+    
+}
+#reset:active
+{
+    border:3px solid rgb(24, 21, 21);
+}
+
+#holder :active
+{
+  border :1px solid white;
+  
+}
